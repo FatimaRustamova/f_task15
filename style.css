@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: darkcyan;
+    position: fixed;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 32px;
+}
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.nav1{
+    width: 20%;
+    height: 45px;
+    background-color: white;
+}
+.nav2{
+    width: 60%;
+    height: 45px;
+    background-color: white;
+}
+.nav3{
+    width: 20%;
+    height: 45px;
+    background-color: white;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-color: darkcyan;
+    padding-top: 150px;
+}
+.head{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head1{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+}
+.head2{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+}
+.sect1{
+    width: 100%;
+    height: 650px;
+}
+.work{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work1{
+    width: 45%;
+    height: 150px;
+    background-color: salmon;
+    margin-top: 100px;
+}
+.work2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.work2 div{
+    width: 30%;
+    height: 280px;
+    background-color: salmon;
+}
+.sect2{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(204, 224, 243);
+}
+.life{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.life1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.life1 div{
+    width: 22%;
+    height: 60px;
+    background-color: darkgoldenrod;
+    border-radius: 8px;
+}
+.life2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
+.life2 div{
+    width: 48%;
+    height: 350px;
+    background-color: darkgoldenrod;
+}
+.sect3{
+    width: 100%;
+    height: 700px;
+    padding: 50px 0;
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.comp1{
+    width: 60%;
+    height: 150px;
+    background-color: slategray;
+    margin-top: 50px;
+}
+.comp2{
+    width: 55%;
+    height: 400px;
+    background-color: slategray;
+    margin-top: 50px;
+}
+.sect4{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(204, 224, 243);
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start div{
+    width: 48%;
+    height: 350px;
+    background-color: mediumseagreen;
+    margin-top: 150px;
+}
+.sect5{
+    width: 100%;
+    height: 900px;
+}
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan1{
+    width: 45%;
+    height: 150px;
+    background-color: sienna;
+    margin-top: 100px;
+}
+.plan2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.plan2 div{
+    width: 31%;
+    height: 500px;
+    border-radius: 8px;
+    background-color: sienna;
+}
+.sect6{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(204, 224, 243);
+}
+.feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed1{
+    width: 50%;
+    height: 150px;
+    background-color: tomato;
+    margin-top: 100px;
+}
+.feed2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.feed2 div{
+    width: 48%;
+    height: 220px;
+    background-color: tomato;
+    border-radius: 8px;
+}
+.sect7{
+    width: 100%;
+    height: 600px;
+}
+.made{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.made div{
+    width: 48%;
+    height: 350px;
+    background-color: olive;
+    margin-top: 150px;
+}
+.sect8{
+    width: 100%;
+    height: 450px;
+    background-color: darkcyan;
+}
+.feature{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature div{
+    width: 75%;
+    height: 300px;
+    background-color: white;
+    margin-top: 100px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(7, 18, 35);
+}
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.foot1{
+    width: 40%;
+    height: 220px;
+    background-color: bisque;
+    margin-top: 100px;
+}
+.foot2{
+    width: 35%;
+    height: 220px;
+    background-color: bisque;
+    margin-top: 100px;
+}
+.foot3{
+    width: 25%;
+    height: 220px;
+    background-color: bisque;
+    margin-top: 100px;
+}
